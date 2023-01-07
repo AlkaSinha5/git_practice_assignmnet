@@ -2,7 +2,7 @@
 let str="masai";
 let bag="";
 for(let i=str.length-1;i>=0;i--){
-bag=bag+str[j];
+bag=bag+str[i];
 }
 if(str==bag){
   console.log("is pelindrome");
